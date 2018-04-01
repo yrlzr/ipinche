@@ -1,0 +1,860 @@
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 7895 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2262b621: startup date [Sun Apr 01 11:39:56 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d03444d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2457 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 7899 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4a891c97: startup date [Sun Apr 01 11:40:53 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a24b653e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1861 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 7955 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f667fe: startup date [Sun Apr 01 11:58:47 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90b8a914] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1701 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f667fe: startup date [Sun Apr 01 11:58:47 CST 2018]; root of context hierarchy
+Mapped "{[/main/list],methods=[GET]}" onto public java.lang.String com.ecut.yrl.ipinche.controller.mainController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: At least one JPA metamodel must be present!
+Unregistering JMX-exposed beans on shutdown
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8024 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c209437: startup date [Sun Apr 01 12:39:03 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c6a35c46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1768 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#3d9f5016' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#3d9f5016': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8040 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@163d04ff: startup date [Sun Apr 01 12:42:03 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c156776f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1875 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#5c887052' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#5c887052': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8042 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fb9c7aa: startup date [Sun Apr 01 12:42:16 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$845669dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1901 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#4337afd' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#4337afd': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8049 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d18aa28: startup date [Sun Apr 01 12:44:19 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79e8ce0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1806 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: At least one JPA metamodel must be present!
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8068 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@478ee483: startup date [Sun Apr 01 12:47:18 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$806d869e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1956 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#78ec89a6' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#78ec89a6': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8072 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10c626be: startup date [Sun Apr 01 12:48:56 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c156776f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2119 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#c689973' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#c689973': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8085 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79145d5a: startup date [Sun Apr 01 12:51:28 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7859b10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1866 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#72b6832e' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#72b6832e': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8097 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26425897: startup date [Sun Apr 01 12:56:04 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56864cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1714 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#21bd128b' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#21bd128b': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8194 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cbf6e72: startup date [Sun Apr 01 13:35:19 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$359707fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1997 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Cannot create inner bean '(inner bean)#91f565d' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#91f565d': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8199 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a3c96e3: startup date [Sun Apr 01 13:37:46 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ec587f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1867 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: At least one JPA metamodel must be present!
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8203 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@183e8023: startup date [Sun Apr 01 13:39:34 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8096de30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1828 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: At least one JPA metamodel must be present!
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8214 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c4d27c8: startup date [Sun Apr 01 13:42:32 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6be9fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1877 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: At least one JPA metamodel must be present!
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8425 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34997338: startup date [Sun Apr 01 14:19:31 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef70d565] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2125 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: At least one JPA metamodel must be present!
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8848 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63b1d4fa: startup date [Sun Apr 01 20:29:50 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0595e58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2652 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: At least one JPA metamodel must be present!
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8885 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b5825fa: startup date [Sun Apr 01 20:42:04 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2d99a1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2116 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.ecut.yrl.ipinche.dataobject.User com.ecut.yrl.ipinche.repository.UserRepository.findOneByOpenId()! No parameter available for part openId SIMPLE_PROPERTY (1): [Is, Equals] NEVER.
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8888 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@207b8649: startup date [Sun Apr 01 20:43:02 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf4d474e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1812 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@207b8649: startup date [Sun Apr 01 20:43:02 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/main/list],methods=[GET]}" onto public java.lang.String com.ecut.yrl.ipinche.controller.mainController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@207b8649: startup date [Sun Apr 01 20:43:02 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started IpincheApplication in 5.363 seconds (JVM running for 6.697)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@207b8649: startup date [Sun Apr 01 20:43:02 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8908 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a776e: startup date [Sun Apr 01 20:50:17 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b20d01c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1672 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ecut.yrl.ipinche.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8917 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26425897: startup date [Sun Apr 01 20:52:03 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4818928b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1824 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ecut.yrl.ipinche.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8922 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c4d27c8: startup date [Sun Apr 01 20:54:38 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dafb7aa3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2271 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c4d27c8: startup date [Sun Apr 01 20:54:38 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/main/list],methods=[GET]}" onto public java.lang.String com.ecut.yrl.ipinche.controller.mainController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c4d27c8: startup date [Sun Apr 01 20:54:38 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started IpincheApplication in 5.829 seconds (JVM running for 7.181)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1054, SQLState: 42S22
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c4d27c8: startup date [Sun Apr 01 20:54:38 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8933 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338494fa: startup date [Sun Apr 01 20:57:40 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a911e127] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1814 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.ecut.yrl.ipinche.dataobject.User com.ecut.yrl.ipinche.repository.UserRepository.findOneByOpenId(java.lang.String)! No property openId found for type User! Did you mean 'open_id'?
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8937 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15cafec7: startup date [Sun Apr 01 20:58:48 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48e85911] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2032 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.ecut.yrl.ipinche.dataobject.User com.ecut.yrl.ipinche.repository.UserRepository.findOneByOpen_id(java.lang.String)! No property open found for type User!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8942 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338494fa: startup date [Sun Apr 01 21:00:59 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56c0c4f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1771 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.ecut.yrl.ipinche.dataobject.User com.ecut.yrl.ipinche.repository.UserRepository.findOneByOpen_id(java.lang.String)! No property open found for type User!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8945 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5b444398: startup date [Sun Apr 01 21:01:48 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd2feb67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2153 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.ecut.yrl.ipinche.dataobject.User com.ecut.yrl.ipinche.repository.UserRepository.findOneByOpen_id(java.lang.String)! No property open found for type User!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8958 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@758c83d8: startup date [Sun Apr 01 21:04:21 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56c0c4f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1749 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.ecut.yrl.ipinche.dataobject.User com.ecut.yrl.ipinche.repository.UserRepository.findOneByOpen_id(java.lang.String)! No property open found for type User!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 8962 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338494fa: startup date [Sun Apr 01 21:05:49 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b29c1ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2083 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338494fa: startup date [Sun Apr 01 21:05:49 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/main/list],methods=[GET]}" onto public java.lang.String com.ecut.yrl.ipinche.controller.mainController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338494fa: startup date [Sun Apr 01 21:05:49 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started IpincheApplication in 5.445 seconds (JVM running for 6.771)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+HHH000397: Using ASTQueryTranslatorFactory
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m31s314ms).
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338494fa: startup date [Sun Apr 01 21:05:49 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 9004 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c8eee0f: startup date [Sun Apr 01 22:29:03 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3387f26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1893 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.14.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c8eee0f: startup date [Sun Apr 01 22:29:03 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/main/list],methods=[GET]}" onto public java.lang.String com.ecut.yrl.ipinche.controller.mainController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c8eee0f: startup date [Sun Apr 01 22:29:03 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started IpincheApplication in 5.275 seconds (JVM running for 6.603)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+HHH000397: Using ASTQueryTranslatorFactory

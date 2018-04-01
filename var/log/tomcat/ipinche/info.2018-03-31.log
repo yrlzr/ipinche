@@ -1,0 +1,42 @@
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 7104 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5733f295: startup date [Sat Mar 31 22:18:57 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c2d0331e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2286 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting IpincheApplication on yanruilongdeMacBook-Air.local with PID 7107 (/Users/yanruilong/IdeaProjects/ipinche/target/classes started by yanruilong in /Users/yanruilong/IdeaProjects/ipinche)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31aa3ca5: startup date [Sat Mar 31 22:19:54 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8316ce5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.28
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanruilong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1735 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
